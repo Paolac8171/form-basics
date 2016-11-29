@@ -12,16 +12,28 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h2>Exotic food generator</h2>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name"><br>
+            Favorite animal:
+            <input type="text" name="animal"><br>
+            
+            Continent of origin for food : <br>
+            <input type="radio" name="Continent" value="Asia"> Asia <br>
+            <input type="radio" name"Continent" value="Europe"> Europe <br>
+            <input type= "radio" name="Continent" value="South America"> South America <br>
 
             <!--add your own inputs below-->
+            <select name="size">
+                <option value="Tiny" selected> Tiny animal </option>
+                <option value="medium"> medium animal </option>
+                <option value="Giant" selected> Giant animal </option>
+            </select>
 
+          <input type="text" name="color" placeholder="color" required>
 
 
 
@@ -31,7 +43,7 @@
 
             <!--add your own inputs above-->
 
-            <input class="blue-button" type="submit" value="Submit">
+        <input class="blue-button" type="submit" value="Submit">
         </form>
     </div>
 </body>
